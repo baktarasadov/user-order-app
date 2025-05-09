@@ -1,0 +1,89 @@
+# Build outputs
+/dist
+/build
+/user-service/dist
+/order-service/dist
+
+# Node modules
+/node_modules
+/user-service/node_modules
+/order-service/node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+/coverage
+/.nyc_output
+/user-service/coverage
+/order-service/coverage
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# VSCode configs
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+/user-service/.env
+/user-service/.env.local
+/user-service/.env.development.local
+/user-service/.env.test.local
+/user-service/.env.production.local
+
+/order-service/.env
+/order-service/.env.local
+/order-service/.env.development.local
+/order-service/.env.test.local
+/order-service/.env.production.local
+
+# Temporary and cache files
+.temp
+.tmp
+.cache
+/user-service/.cache
+/order-service/.cache
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Prisma
+/user-service/prisma/dev.db
+/order-service/prisma/dev.db
+/user-service/prisma/dev.db-journal
+/order-service/prisma/dev.db-journal
+
+# Docker
+docker-compose.override.yml

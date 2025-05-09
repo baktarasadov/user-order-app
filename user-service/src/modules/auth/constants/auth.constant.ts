@@ -1,0 +1,4 @@
+export const ACCESS_TOKEN_EXPIRATION = {
+    AS_MILLISECONDS: 1000 * 60 * 60 * 1,
+    AS_STRING: "1h",
+};

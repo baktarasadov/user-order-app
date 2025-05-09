@@ -1,0 +1,23 @@
+# Base image
+FROM node:18-alpine
+
+# Working directory
+WORKDIR /app
+
+# Copy package.json and lock file
+COPY package*.json ./
+
+# Install dependencies
+RUN npm install --force
+
+# Copy source code
+COPY . .
+
+# Build the NestJS app
+RUN npm run build
+
+# Expose port (əgər app 3000-də işləyirsə)
+EXPOSE 8001
+
+# Start the app
+CMD ["node", "dist/main"]
