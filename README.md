@@ -13,4 +13,4 @@ istifadə olunan Texnalogiyalar: NestJS PostgreSQL TypeORM JWT (JSON Web Token) 
 
 Api Documentation ucun  Appi run etdikden sonra http://localhost:8000/api-docs vəya 8001 portun yazmaq kifayətdir.
 
-Api run etmek ucun ise terminalda docker compose up --build komandasin calisdirmaq lazimdir.
+Api run etmek ucun ise terminalda docker compose up --build komandasin calisdirmaq lazimdir. Run etmemisden evvel (env.example faylindaki keyleri (.env.local veya e.env) fayli yaradib tamamlamaq lazimdir . Prod ucun .env , Local ucun .env.local file. Eynisinde atsaniz calisacaq .
